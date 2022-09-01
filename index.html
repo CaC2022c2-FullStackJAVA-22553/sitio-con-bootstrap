@@ -17,17 +17,74 @@
     <div class="container bg-primary text-light p-5 my-5">
         <h1>Mi primera web con Bootstrap</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium architecto illo tempore ratione commodi
-        optio officiis dolore doloremque quam at ut autem vitae, quas minus repellendus, repellat tenetur libero fugiat?
+            optio officiis dolore doloremque quam at ut autem vitae, quas minus repellendus, repellat tenetur libero
+            fugiat?
         </p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur sit deleniti cupiditate labore nulla. Numquam, asperiores! Enim, vel voluptate eaque qui cupiditate ex blanditiis earum autem vero, minima nihil.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur sit deleniti cupiditate labore
+            nulla. Numquam, asperiores! Enim, vel voluptate eaque qui cupiditate ex blanditiis earum autem vero, minima
+            nihil.</p>
     </div>
     <div class="container fondo-propio text-light p-5 my-5">
-        <h1>Mi primera web con Bootstrap</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium architecto illo tempore ratione commodi
-        optio officiis dolore doloremque quam at ut autem vitae, quas minus repellendus, repellat tenetur libero fugiat?
-        </p>
+        <!-- Clase col: Boostrap se encarga de darle tamaño automático a cada columna, en todas las resoluciones
+        -->
+        <div class="row">
+            <div class="col bg-danger">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor magni rem delectus vel. In
+                    tempora magni et quibusdam quam, est, tenetur ipsum inventore repudiandae, incidunt voluptas eum.
+                    Eligendi, mollitia?</p>
+            </div>
+            <div class="col bg-warning">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor magni rem delectus vel.</p>
+            </div>
+            <div class="col bg-secondary">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor magni rem delectus vel. In
+                    tempora magni et quibusdam quam, est, tenetur ipsum inventore repudiandae, incidunt voluptas eum.
+                </p>
+            </div>
+        </div>
     </div>
-    
+    <div class="container bg-success text-light p-5 my-5">
+        <!-- Clase col-N: Donde N es el número de medida de la columna. La suma entre las columnas debe dar siempre 12 o menos.
+        -->
+        <div class="row">
+            <div class="col-12 bg-danger">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor magni rem delectus vel. In
+                    tempora magni et quibusdam quam, est, tenetur ipsum inventore repudiandae, incidunt voluptas eum.
+                    Eligendi, mollitia?</p>
+            </div>
+            <div class="col-12 text-dark bg-warning">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor magni rem delectus vel.</p>
+            </div>
+            <div class="col-12 bg-secondary">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor magni rem delectus vel. In
+                    tempora magni et quibusdam quam, est, tenetur ipsum inventore repudiandae, incidunt voluptas eum.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-primary text-light p-5 my-5">
+        <!--
+             Clase col-TAM-N: Donde N es el número de medida de la columna y TAM es a partir de qué breakpoint (sm, md, lg, xl o xxl) toma ese tamaño. La suma entre las columnas debe dar siempre 12 o menos.
+         -->
+        <div class="row">
+            <div class="col-12 col-md-3 col-xl-2 bg-danger">
+                <ul>
+                    <li>Opcion 1</li>
+                    <li>Opcion 2</li>
+                    <li>Opcion 3</li>
+                    <li>Opcion 4</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-9 col-lg-6 col-xl-8 text-dark bg-warning">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor magni rem delectus vel. In
+                    tempora magni et quibusdam quam, est, tenetur ipsum inventore repudiandae, incidunt voluptas eum.
+                </p>
+            </div>
+            <div class="col-12 col-lg-3 col-xl-2 bg-secondary">
+                <img src="https://picsum.photos/200/100" alt="">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
